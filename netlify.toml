@@ -1,6 +1,6 @@
 [build]
   # No necesitas comando de build ni directorio de publicación para solo funciones
-  # command = "" (Déjalo vacío si lo tienes)
+  command = "" (Déjalo vacío si lo tienes)
   functions = "netlify/functions" # Ruta donde están tus funciones serverless
 
 [functions]
