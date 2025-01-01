@@ -1,7 +1,8 @@
 [build]
-	command = "# no build command"
-	functions = "netlify/functions"
-    publish = "dist"
+  # No necesitas estas configuraciones si solo tienes funciones serverless
+  # publish = "dist"
+  # command = "npm run build" (o cualquier comando de build)
 
 [functions]
-        node_bundler = "esbuild"
+  directory = "netlify/functions" # Este debe ser el directorio de tus funciones
+  node_bundler = "esbuild"
